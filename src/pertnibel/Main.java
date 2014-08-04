@@ -29,6 +29,7 @@ public class Main {
         } catch (IOException ex) {
             System.err.println("Une personne sur la voie cause une " +
                     "interruption du service sur la ligne Orange.");
+            System.err.println(ex.getMessage());
             System.exit(1);
         }
     }
